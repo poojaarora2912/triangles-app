@@ -1,0 +1,34 @@
+.navigation{
+    background-color: aqua;
+    height: 80px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.angle{
+border-radius: 10px;
+}
+#checktriangle{
+    border-radius: 30px;
+    background-color: aqua;
+    height: 30px;
+    width: 80px;
+    
+}
+.linkone{
+    font-size: large;
+    position: absolute;
+    right:250px;
+    top:60px;
+    color: black;
+    
+}
+.linktwo{
+    font-size: large;
+    position: absolute;
+    right:200px;
+    top:60px;
+    color: black;
+    
+}

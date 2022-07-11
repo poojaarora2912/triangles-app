@@ -1,0 +1,33 @@
+.navigation{
+    background-color: aqua;
+    height: 80px;
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+.quiz-form{
+    text-align: center;
+}
+#results{
+    border-radius: 30px;
+    background-color: aqua;
+    height: 50px;
+    width: 80px;
+}
+.linkone{
+    font-size: large;
+    position: absolute;
+    right:250px;
+    top:60px;
+    color: black;
+    
+}
+.linktwo{
+    font-size: large;
+    position: absolute;
+    right:200px;
+    top:60px;
+    color: black;
+    
+}
