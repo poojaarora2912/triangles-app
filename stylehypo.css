@@ -3,16 +3,18 @@
     height: 80px;
     text-align: center;
 }
-#description{
+.container{
     text-align: center;
 }
-.quiz-form{
-    text-align: center;
+.inputs{
+    border-radius: 30px;
+    height: 15px;
+    width: 80px;
 }
-#results{
+#calculate{
     border-radius: 30px;
     background-color: aqua;
-    height: 50px;
+    height: 30px;
     width: 80px;
 }
 .linkone{
