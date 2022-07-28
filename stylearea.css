@@ -17,33 +17,23 @@
     height: 30px;
     width: 80px;
 }
-.linkone{
-    font-size: large;
-    position: absolute;
-    right:250px;
-    top:60px;
-    color: black;
+.navigation{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.navigation-left{
     
-}
-.linktwo{
     font-size: large;
-    position: absolute;
-    right:200px;
-    top:60px;
-    color: black;
-    
-}
-.linkthree{
-    font-size: large;
-    position: absolute;
-    right:90px;
-    top:60px;
     color: black;
 }
-.linkfour{
-    font-size: large;
-    position: absolute;
-    right:30px;
-    top:60px;
+.navigation-right{
+    flex: 1 0;
+text-align: right;
+
+}
+.navigation-right a{
+    text-decoration: none;
     color: black;
+    padding: 10px;
 }

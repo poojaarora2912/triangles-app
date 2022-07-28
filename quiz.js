@@ -1,15 +1,25 @@
-const quizForm = document.querySelector(".quiz-form");
-const results = document.querySelector("#results");
-const score = document.querySelector("#score");
+const quizForm = document.querySelector(".form1");
+const results = document.querySelector("#submit");
+const score = document.querySelector("#output");
+
+results.addEventListener("click",calculate)
 
 const correctAnswers = [
     "60",
     "isoceles",
     "othersides",
+    "tworightangles",
+    "equilateraltriangle",
+    "equilateral",
+    "rightangle",
+    "equilateral",
+    "100",
+    "30"
 ];
 
 function calculate(){
-    const formResults = new FormData(quizForm);
+    console.log("working");
+    var formResults = new FormData(quizForm);
     let total = 0, index = 0;
     for(let value of formResults.values()){
         if(value===correctAnswers[index]){
@@ -21,4 +31,3 @@ function calculate(){
 }
 
 
-results.addEventListener("click",calculate)

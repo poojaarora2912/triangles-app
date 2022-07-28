@@ -1,47 +1,42 @@
-.navigation{
-    background-color: aqua;
-    height: 80px;
-    text-align: center;
+
+.main-content{
+  margin:auto;
+  width: 50%;
+  border: 3px ;
+  padding: 10px;
+  text-align: center;
+
 }
-#description{
+.form1{
     text-align: center;
-}
-.quiz-form{
-    text-align: center;
-}
-#results{
+} 
+#submit{
+    align-items: center;
     border-radius: 30px;
     background-color: aqua;
     height: 50px;
     width: 80px;
 }
-.linkone{
-    font-size: large;
-    position: absolute;
-    right:250px;
-    top:60px;
-    color: black;
+.navigation{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.navigation-left{
     
-}
-.linktwo{
     font-size: large;
-    position: absolute;
-    right:200px;
-    top:60px;
-    color: black;
-    
-}
-.linkthree{
-    font-size: large;
-    position: absolute;
-    right:90px;
-    top:60px;
     color: black;
 }
-.linkfour{
-    font-size: large;
-    position: absolute;
-    right:30px;
-    top:60px;
+.navigation-right{
+    flex: 1 0;
+text-align: right;
+
+}
+.navigation-right a{
+    text-decoration: none;
     color: black;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
 }
