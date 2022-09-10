@@ -14,7 +14,7 @@ const correctAnswers = [
     "rightangle",
     "equilateral",
     "100",
-    "30"
+    "30",
 ];
 
 function calculate(){
